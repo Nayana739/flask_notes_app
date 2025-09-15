@@ -24,16 +24,15 @@ This is my first simple project to practice Flask notes app.
 ---
 
 ## 📂 **Project Structure**
-flask_notes_app/
-│── app.py
-│── requirements.txt
-│── README.md
-│── templates/
-│ ├── base.html
-│ ├── index.html
-│ └── add_note.html
-│── static/
-│ └── style.css
+- `app.py` → Main Flask application  
+- `requirements.txt` → List of dependencies  
+- `templates/` → HTML templates  
+  - `base.html` → Base template (common layout)  
+  - `index.html` → Homepage  
+  - `add_note.html` → Page for adding a note  
+- `static/` → Static files (CSS, JS, images)  
+  - `style.css` → CSS stylesheet
+css
 
 ---
 
@@ -44,24 +43,29 @@ flask_notes_app/
    git clone https://github.com/Nayana739/flask-notes-app.git
    cd flask-notes-app
 
+
 2. **Install dependencies**
 ```bash
 pip install -r requirements.txt
-
----
-
-3. **Run the app**
+```
+3. **Run the App**
 ```bash
 python app.py
-
----
-
+```
 4. **Open in browser**
 ```bash
 http://127.0.0.1:5000/
-
----
-
+```
 ## 🤝 Contributions  
-Contributions are welcome! Fork the repository, create a branch, and submit a pull request. 
+Contributions are welcome! Fork the repository, create a branch, and submit a pull request.
+
+
+
+
+
+
+
+
+
+
 
