@@ -54,7 +54,7 @@ python app.py
 ```
 4. **Open in browser**
 ```bash
-http://127.0.0.1:5000/
+https://flask-notes-app-xoct.onrender.com/
 ```
 ## 🤝 Contributions  
 Contributions are welcome! Fork the repository, create a branch, and submit a pull request.
